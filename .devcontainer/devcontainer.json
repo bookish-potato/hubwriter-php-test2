@@ -16,9 +16,16 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker"
 			]
-		}
+		},
+		"codespaces": {
+      			"repositories": {
+        			"bookish-potato/hubwriter-onepage-express-site": {
+          				"permissions": "write-all"
+        			}
+      			}
+    		}
 	},
-
+	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [8000],
 
